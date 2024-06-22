@@ -1,0 +1,1 @@
+This is a project that replicates a landing page based off The Odin Project's design. 
