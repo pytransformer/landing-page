@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    
 }
 
 .header {
@@ -33,6 +34,8 @@ body {
 
 .hero {
     background-color:#1F2937;
+    display: flex;
+    padding: 80px 200px;
 }
 
 .hero .main-text {
@@ -49,9 +52,15 @@ button {
 }
 
 .placeholder {
-    background-color: gray
+    background-color: gray;
 }
 
 p {
     color: #F9FAF8;
+}
+
+.hero-left, .hero-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
