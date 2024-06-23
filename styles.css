@@ -12,7 +12,7 @@ body {
     background-color:#1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 20%;
+    padding: 0 15%;
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
 .hero {
     background-color:#1F2937;
     display: flex;
-    padding: 7% 20%;
+    padding: 7% 15%;
 }
 
 .hero .main-text {
@@ -79,19 +79,32 @@ button {
 
 .information {
     background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 0 22% ;
 }
 
-.subtitle {
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.information-subtitle {
     color: #1F2937;
     font-weight: 800;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
     outline: 3px solid #3882f6;
     border-radius: 6px;
+    height: 175%;
 }
 
-.subtext {
-    color: #E5E7EB;
+.information-subtext {
+    color: #708090;
+    text-align: center;
 }
