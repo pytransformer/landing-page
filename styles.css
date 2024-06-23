@@ -77,6 +77,21 @@ button {
     width: 50%;
 }
 
-/* .hero-left {
-    margin-right: 20px
-} */
+.information {
+    background-color: #F9FAF8;
+}
+
+.subtitle {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.box {
+    outline: 3px solid #3882f6;
+    border-radius: 6px;
+}
+
+.subtext {
+    color: #E5E7EB;
+}
