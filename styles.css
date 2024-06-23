@@ -176,8 +176,12 @@ button {
 
 .footer {
     background-color: #1F2937;
+    padding: 3% ;
 }
 
 .copyright {
     color: #E5E7EB;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
