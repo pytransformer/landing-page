@@ -12,7 +12,7 @@ body {
     background-color:#1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 20%;
 }
 
 .logo {
@@ -35,28 +35,40 @@ body {
 .hero {
     background-color:#1F2937;
     display: flex;
-    padding: 80px 200px;
+    padding: 7% 20%;
 }
 
 .hero .main-text {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
 }
 
 .hero .secondary-text {
     color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    margin: 16px 0;
 }
 
 button {
     background-color: #3882f6;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 4px 32px;
 }
 
-.placeholder {
-    background-color: gray;
+.hero-right {
+    background-color: #708090
 }
 
-p {
+.hero-right p {
     color: #F9FAF8;
+    margin: auto;
 }
 
 .hero-left, .hero-right {
@@ -64,3 +76,7 @@ p {
     flex-direction: column;
     width: 50%;
 }
+
+/* .hero-left {
+    margin-right: 20px
+} */
