@@ -137,19 +137,37 @@ button {
 
 .call-to-action {
     background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
 }
 
 .banner {
     background-color: #3882F6;
     border-radius: 6px;
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+    gap: 80px;
 }
 
 .banner-subtitle {
     color: #F9FAF8;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 6px;
 }
 
 .banner-subtext {
     color: #E5E7EB;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-button {
