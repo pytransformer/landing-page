@@ -81,7 +81,7 @@ button {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 0 22% ;
+    padding: 0 22% 8%;
 }
 
 .image-grid {
@@ -101,7 +101,7 @@ button {
 .box {
     outline: 3px solid #3882f6;
     border-radius: 6px;
-    height: 175%;
+    height: 150px;
 }
 
 .information-subtext {
