@@ -111,6 +111,9 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 8% 22% 8%;
 }
 
 .quote-text {
@@ -118,10 +121,16 @@ button {
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .quote-author {
     color: #1F2937;
     font-weight: 800;
     font-size: 24px;
+    margin: 0;
+    margin-right: 24px;
+    display: flex;
+    justify-content: right;
 }
