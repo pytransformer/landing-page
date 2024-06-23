@@ -173,3 +173,11 @@ button {
 .banner-button {
     border: 1px solid #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
