@@ -11,18 +11,22 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 .logo {
     font-weight: bold;
     color: white;
+    font-size: large;
 }
 
-a {
+.header a {
     color: #E5E7EB;
     text-decoration: none;
 }
 
 .header-right {
+    display: flex;
     margin: auto 0;
+    gap: 24px;
 }
