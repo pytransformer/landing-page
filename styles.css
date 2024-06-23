@@ -108,3 +108,20 @@ button {
     color: #708090;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 24px;
+}
