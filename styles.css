@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color:#1F2937;
     display: flex;
     justify-content: space-between;
     padding: 0 200px;
@@ -21,12 +21,37 @@ body {
 }
 
 .header a {
-    color: #E5E7EB;
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header-right {
     display: flex;
     margin: auto 0;
     gap: 24px;
+}
+
+.hero {
+    background-color:#1F2937;
+}
+
+.hero .main-text {
+    color: #F9FAF8;
+}
+
+.hero .secondary-text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    background-color: gray
+}
+
+p {
+    color: #F9FAF8;
 }
