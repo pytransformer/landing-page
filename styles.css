@@ -134,3 +134,24 @@ button {
     display: flex;
     justify-content: right;
 }
+
+.call-to-action {
+    background-color: #F9FAF8;
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.banner-subtitle {
+    color: #F9FAF8;
+}
+
+.banner-subtext {
+    color: #E5E7EB;
+}
+
+.banner-button {
+    border: 1px solid #F9FAF8;
+}
